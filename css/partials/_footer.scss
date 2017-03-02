@@ -1,0 +1,74 @@
+/*========================
+FOOTER CONTENT
+=========================*/
+
+footer.sub_footer {
+  background-color: $color-fondo-pie;
+  padding: 20px;
+}
+
+p.sub-footer-text {
+  color: $color-texto-pie;
+}
+
+#contact .contact-form {
+  margin: 0 auto;
+  padding: 25px 25px 0px 25px;
+  @include box-shadow(0px, 1px, 4px, rgba(0, 0, 0, 0.2));
+}
+
+.mail-message-area {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.inner.contact {
+  padding: 0px 0px 50px 0px;
+}
+
+.form {
+  width: 100%;
+  padding: 16.94px;
+  border: 1px solid rgba(13, 12, 12, 0.23);
+  margin-bottom: 25px;
+  color: #727272 !important;
+  font-size: 13px;
+  @include transition-all(0.4s);
+  &:hover {
+    border: 1px solid #ff3300;
+  }
+  &:focus {
+    border: 1px solid #ff3300;
+    color: white;
+    outline: none;
+  }
+}
+
+.form-btn {
+  width: 180px;
+  display: block;
+  float: left;
+  height: auto;
+  padding: 15px;
+  color: #fff;
+  background: rgba(255, 51, 0, 1);
+  border: none;
+  outline: none;
+  margin: 0 auto !important;
+  @include border-radius(3px);
+  @include transition-all(0.3s);
+  @include box-shadow(0px, 1px, 4px, rgba(0, 0, 0, 0.1));
+  text-align: center;
+  &:hover {
+    background: rgba(255, 118, 102, 1);
+    color: white;
+    border: none;
+  }
+  &:active {
+    opacity: 0.9;
+  }
+}
+
+.navbar-default {
+  border: 0 !important;
+} 

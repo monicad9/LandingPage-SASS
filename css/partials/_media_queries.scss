@@ -1,0 +1,148 @@
+/*========================
+MEDIA QUERIES MOBILE
+=========================*/
+
+@media (max-width: $tam-moviles) {
+  .top-title {
+    font-size: 67px;
+  }
+  .second-title {
+    font-size: 21px;
+  }
+  .background_content h1 {
+    width: 80%;
+    font-size: 2.5em;
+  }
+  .form-btn {
+    margin: 0px auto;
+    /* display: block; */
+  }
+}
+
+@media (min-width: $tam-moviles-peq) {
+  .starter_container {
+    height: 100%;
+  }
+  .background_content h1 {
+    top: 33%;
+  }
+}
+
+/*========================
+MEDIA QUERIES TABLET
+=========================*/
+
+@media (min-width: $tam-tablets) {
+  .starter_container {
+    height: 100%;
+  }
+  .navbar-default {
+    height: 70px;
+    padding-top: 10px;
+  }
+  .navbar-brand {
+    font-family: $fuente-logo;
+    font-size: 60px !important;
+    text-decoration: none;
+    color: white !important;
+  }
+  .logo {
+    display: none;
+  }
+  .main-nav {
+    padding: 0;
+    margin: 18px auto 0 auto;
+  }
+  /*========================
+  DESCRIPTION BODY CONTENT
+  =========================*/
+  .description_body {
+    margin: 45px auto;
+    max-width: 500px;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 900;
+    width: 280px;
+    letter-spacing: 0.040em;
+    /*border: 1px solid #2f2e2f;*/
+  }
+  /*========================
+  IMAGE INTRO BANNER CONTENT
+  =========================*/
+  .background_content {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto 0 auto;
+    z-index: 98;
+    text-align: center;
+    h1 {
+      font-size: 4.5em;
+      position: relative;
+      top: 41%;
+      width: 100%;
+      color: white;
+      padding: 0;
+      border: 0;
+      display: inline-block;
+      span {
+        color: white;
+        padding: 0;
+        border-bottom: 10px solid #fff;
+      }
+    }
+  }
+}
+
+/*========================
+MEDIA QUERIE DESKTOP
+=========================*/
+
+@media (min-width: $tam-escritorio) {
+  .starter_container {
+    background-attachment: fixed;
+  }
+  /*========================
+  BACKGROUND CONTENT
+  =========================*/
+  .background_content h1 {
+    font-size: 5em;
+    position: relative;
+    top: 41%;
+    width: 100%;
+    color: white;
+    padding: 0;
+    border: 0;
+    display: inline-block;
+    margin-top: 20px;
+    span {
+      color: white;
+      padding: 0;
+      border-bottom: 12px solid #fff;
+    }
+  }
+  /*========================
+  DESCRIPTION BODY CONTENT
+  =========================*/
+  .margin-right {
+    margin-right: 5%;
+  }
+  .margin-left {
+    margin-left: 5%;
+  }
+  .background_content {
+    &:nth-of-type(2), &:nth-of-type(4) {
+      background-attachment: fixed;
+    }
+  }
+  .description_body {
+    max-width: 450px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-top: 10px;
+  }
+}

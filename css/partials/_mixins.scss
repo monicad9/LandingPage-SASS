@@ -1,0 +1,27 @@
+/*========================
+MIXINS
+=========================*/
+
+@mixin box-sizing($tipo) {
+	-moz-box-sizing: $tipo;
+	box-sizing: $tipo;
+}
+
+@mixin border-radius($radio) {
+	-webkit-border-radius: $radio;
+	-moz-border-radius: $radio;
+	-ms-border-radius: $radio;
+	border-radius: $radio;
+}
+
+@mixin box-shadow($sombra-horizontal, $sombra-vertical, $blur, $color) {
+	box-shadow: $sombra-horizontal $sombra-vertical $blur $color;
+	-moz-box-shadow: $sombra-horizontal $sombra-vertical $blur $color;
+	-webkit-box-shadow: $sombra-horizontal $sombra-vertical $blur $color;
+}
+
+@mixin transition-all($duracion) {
+	transition: all $duracion;
+	-webkit-transition: all $duracion;
+	-moz-transition: all $duracion;
+}
