@@ -1,7 +1,7 @@
 Landing page
 
 
-Jose Marcos Leyva Castro 
+Jose Marcos Leyva Castro y
 Mónica Daza Aguilera
 
 
